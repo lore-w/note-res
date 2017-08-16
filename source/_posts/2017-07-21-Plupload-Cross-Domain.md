@@ -42,5 +42,5 @@ var uploader = new plupload.Uploader({
 ```
 
 #### 参考资料
-+ [http://www.ruanyifeng.com/blog/2016/04/cors.html](http://www.ruanyifeng.com/blog/2016/04/cors.html)
-+ [https://github.com/moxiecode/plupload/pull/1356](https://github.com/moxiecode/plupload/pull/1356)
++ [*CORS 详解*](http://www.ruanyifeng.com/blog/2016/04/cors.html)
++ [*Support withCredentials attribute of XmlHttpRequest*](https://github.com/moxiecode/plupload/pull/1356)
