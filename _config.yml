@@ -7,12 +7,12 @@ title: W's Notes
 subtitle: WRITE & RECORD
 description:
 author: Lore-w
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lore-w.github.io
+url: http://lore-w.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -66,11 +66,11 @@ pagination_dir: page
 theme: next
 
 # avatar
-avatar: /images/avatar.jpg
+avatar: /images/commons/avatar.jpg
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:lore-w/lore-w.github.io.git
+  repo: git@git.coding.net:lore-w/notes.git
   branch: master

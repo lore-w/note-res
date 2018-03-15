@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags: ['CODE']
+tags: ['']
+categories: ['']
 ---
 
 <!-- more -->
