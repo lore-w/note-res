@@ -3,7 +3,7 @@ title: Nginx-目录结构简述
 tags:
   - nginx
 categories:
-  - 挖、草稿
+  - 手记
 date: 2018-03-18 19:45:23
 ---
 
@@ -52,61 +52,54 @@ $ rpm -ql nginx
 
 # 安装目录
 
-+ `/etc/logrotate.d/nginx` （配置）
-  > Nginx日志轮转，用于logrotate服务的日志切割
----
+```bash
 
-+ `/etc/nginx` （目录）
-+ `/etc/nginx/nginx.conf` （配置）
-+ `/etc/nginx/conf.d` （目录）
-+ `/etc/nginx/conf.d/default.conf` （配置）
-  > Nginx服务的配置文件
----
+/etc/logrotate.d/nginx # 配置
+# Nginx日志轮转，用于logrotate服务的日志切割
 
-+ `/etc/nginx/fastcgi_params` （配置）
-+ `/etc/nginx/uwsgi_params` （配置）
-+ `/etc/nginx/scgi_params` （配置）
-  > CGI配置相关，FASTCGI配置
----
+/etc/nginx # 目录
+/etc/nginx/nginx.conf # 配置
+/etc/nginx/conf.d # 目录
+/etc/nginx/conf.d/default.conf # 配置
+# Nginx服务的配置文件
 
-+ `/etc/nginx/koi-utf` （配置）
-+ `/etc/nginx/koi-win` （配置）
-+ `/etc/nginx/win-utf` （配置）
-  > *编码* 转换映射文件
----
+/etc/nginx/fastcgi_params # 配置
+/etc/nginx/uwsgi_params # 配置
+/etc/nginx/scgi_params # 配置
+# fastcgi、cgi配置
 
-+ `/etc/nginx/mime.types` （配置）
-  > 设置http协议的Content-type与 *扩展名的对应关系*
-  > 如：当请求图片时，Response Headers中的Content-Type为image/jpeg
----
+/etc/nginx/koi-utf # 配置
+/etc/nginx/koi-win # 配置
+/etc/nginx/win-utf # 配置
+# 编码 转换映射文件
 
-+ `/usr/lib/systemd/system/nginx-debug.service` （配置）
-+ `/usr/lib/systemd/system/nginx.service` （配置）
-+ `/etc/sysconfig/nginx` （配置）
-+ `/etc/sysconfig/nginx-debug` （配置）
-  > CENTOS7.2+ 配置系统 ***守护进程*** 管理器的管理方式
----
+/etc/nginx/mime.types # 配置
+# 设置http协议的Content-type与 expanded-name 的映射关系
+# 如：当请求图片时，Response Headers中的Content-Type为image/jpeg
 
-+ `/usr/lib64/nginx/modules`（目录）
-+ `/etc/nginx/modules` （目录）
-  > Nginx模块目录
----
+/usr/lib/systemd/system/nginx-debug.service # 配置
+/usr/lib/systemd/system/nginx.service # 配置
+/etc/sysconfig/nginx # 配置
+/etc/sysconfig/nginx-debug # 配置
+# Centos7.2+ 配置系统 daemon 管理器的管理方式
 
-+ `/usr/sbin/nginx` （命令）
-+ `/usr/sbin/nginx-debug` （命令）
-  > Nginx服务的 *启动* 管理终端命令
----
+/usr/lib64/nginx/modules # 目录
+/etc/nginx/modules # 目录
+# > Nginx模块目录
 
-+ `/usr/share/doc/nginx-1.12.0`
-+ `/usr/share/doc/nginx-1.12.0/COPYRIGHT`
-+ `/usr/share/main/man8/nginx.8.gz`
-  > Nginx的 *手册* 和 * 帮助* 文件
----
+# /usr/sbin/nginx # 命令
+# /usr/sbin/nginx-debug # 命令
+# Nginx服务的管理终端命令
 
-+ `/var/cache/nginx` （目录）
-  > Nginx的 ***缓存*** 目录
----
+/usr/share/doc/nginx-1.12.0
+/usr/share/doc/nginx-1.12.0/COPYRIGHT
+/usr/share/main/man8/nginx.8.gz
+# Nginx的 手册 和 帮助 文件
 
-+ `/var/log/nginx` （目录）
-  > Nginx的 ***日志*** 目录
----
+/var/cache/nginx # 目录
+# Nginx的 缓存 目录
+
++ /var/log/nginx # 目录
+# Nginx的 日志 目录
+
+```
