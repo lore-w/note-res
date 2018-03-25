@@ -1,5 +1,5 @@
 ---
-title: Nginx Log Format模块
+title: Nginx 日志模块
 tags:
   - nginx
 categories:
@@ -7,7 +7,7 @@ categories:
 date: 2018-03-23 23:28:23
 ---
 
-# LOG_FORMAT语法规则
+# 语法规则
 
 ```bash
 # log_format 是配置的关键字 name 是配置的名字(一个变量)
@@ -21,7 +21,7 @@ Context: http
 
 ---
 
-**Systax中的第三个参数是请求变量，有3种**
+**SYSTAX中的第三个参数是变量**
 
 ## HTTP请求变量
 
@@ -32,7 +32,9 @@ Context: http
 + `sent_http_HEADER` RESPONSE里的头信息
   **HEADER是参数**
 
-举一个例子,现在想在access_log中记录userAgent,如下
+# 吃个栗子
+
+现在想在access_log中记录userAgent,如下
 
 ```bash
 $ curl -v https://lore-w.com >/etc/null

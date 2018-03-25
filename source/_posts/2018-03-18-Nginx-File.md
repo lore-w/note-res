@@ -1,5 +1,5 @@
 ---
-title: Nginx-目录结构简述
+title: Nginx 目录结构简述
 tags:
   - nginx
 categories:

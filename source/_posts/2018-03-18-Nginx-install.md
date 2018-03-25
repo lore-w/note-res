@@ -1,5 +1,5 @@
 ---
-title: Nginx-install
+title: Nginx Install
 tags:
   - nginx
 categories:

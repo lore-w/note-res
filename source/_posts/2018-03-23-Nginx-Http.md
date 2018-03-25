@@ -1,5 +1,5 @@
 ---
-title: Nginx-Http
+title: Nginx http基础
 tags:
   - nginx
 categories:
