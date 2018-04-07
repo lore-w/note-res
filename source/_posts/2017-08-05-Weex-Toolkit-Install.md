@@ -1,9 +1,13 @@
 ---
-title: 由weex-toolkit引起的权限问题
+title: 由Weex-Toolkit引起的权限问题
 tags:
   - weex
+categories:
+  - 手记
 date: 2017-08-05 12:30:23
 ---
+
+# 问题
 
 在安装weex-toolkit的时候，出现如下错误
 
@@ -15,10 +19,12 @@ Failed at the xtoolkit@0.2.7 postinstall script.
 
 因此，只要`cd`到该目录下`sudo chmod 777 dirName`(dirName为需要修改的目录或者文件)就可以了（如果不行的话同样查看`/usr/local/lib/node_modules`的权限问题）
 
+# 解释
+
 下面开始抄作业解释这个问题
 
 
-*Unix系统的权限分三种，分别是拥有者（Owner）、用户组（Group）、其它用户（Other），用`ls -l`可以查看文件的权限。*
+**Unix系统的权限分三种，分别是Owner、Group、Other，用`ls -l`可以查看文件的权限。**
 
 ![](/images/2017/local-bash.png)
 
