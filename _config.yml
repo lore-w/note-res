@@ -72,5 +72,5 @@ avatar: /images/commons/avatar.jpg
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:lore-w/notes.git
+  repo: git@github.com:lore-w/lore-w.github.io.git
   branch: master
