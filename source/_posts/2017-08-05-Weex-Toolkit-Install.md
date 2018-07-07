@@ -1,9 +1,10 @@
 ---
 title: 由Weex-Toolkit引起的权限问题
 tags:
-  - weex
-categories:
   - 手记
+  - 系统权限
+categories:
+  -
 date: 2017-08-05 12:30:23
 ---
 

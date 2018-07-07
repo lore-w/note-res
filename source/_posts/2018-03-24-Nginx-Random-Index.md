@@ -1,9 +1,10 @@
 ---
 title: Nginx 随机主页模块
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-24 15:08:48
 ---
 

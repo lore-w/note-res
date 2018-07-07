@@ -1,9 +1,11 @@
 ---
-title: jsonp为什么可以跨域请求?
+title: Jsonp为什么可以跨域请求?
 tags:
-  - jsonp
+  - 草稿
+  - 跨域
+  - Jsonp
 categories:
-  - 挖、草稿
+  -
 date: 2017-08-16 23:40:08
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: Nginx 目录结构简述
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-18 19:45:23
 ---
 

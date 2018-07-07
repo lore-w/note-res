@@ -1,9 +1,10 @@
 ---
 title: Nginx 日志模块
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-23 23:28:23
 ---
 

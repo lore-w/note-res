@@ -1,9 +1,10 @@
 ---
 title: Nginx Install
 tags:
-  - nginx
+  - 手记
+  - NGINX
 categories:
-  - 挖、草稿
+  -
 date: 2018-03-18 13:44:23
 ---
 

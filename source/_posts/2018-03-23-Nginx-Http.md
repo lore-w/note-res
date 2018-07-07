@@ -1,9 +1,10 @@
 ---
 title: Nginx http基础
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-23 23:06:31
 ---
 

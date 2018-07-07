@@ -1,9 +1,10 @@
 ---
 title: Nginx 监控模块
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-24 14:31:48
 ---
 

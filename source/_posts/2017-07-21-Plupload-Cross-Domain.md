@@ -1,9 +1,10 @@
 ---
 title: Plupload跨域上传
 tags:
+  - 手记
   - 跨域
 categories:
-  - 手记
+  -
 date: 2017-07-21 17:12:56
 ---
 

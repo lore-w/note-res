@@ -1,10 +1,11 @@
 ---
 title: Prototype分析
 tags:
-  - js
-  - prototype
-categories:
   - 手记
+  - js
+  - PROTOTYPE
+categories:
+  -
 date: 2018-04-07 15:34:30
 ---
 

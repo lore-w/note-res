@@ -1,9 +1,10 @@
 ---
 title: Nginx 访问控制模块
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-25 14:06:07
 ---
 

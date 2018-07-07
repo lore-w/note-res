@@ -1,10 +1,10 @@
 ---
 title: Vue Transition
 tags:
-  - Vue
-  - transition
-categories:
   - 手记
+  - Vue
+categories:
+  -
 date: 2017-07-21 17:12:56
 ---
 

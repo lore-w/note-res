@@ -1,9 +1,10 @@
 ---
 title: Nginx 请求/连接限制模块
 tags:
-  - nginx
-categories:
   - 手记
+  - NGINX
+categories:
+  -
 date: 2018-03-24 19:14:11
 ---
 

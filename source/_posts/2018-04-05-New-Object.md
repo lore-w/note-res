@@ -1,10 +1,11 @@
 ---
 title: Js对象
 tags:
+  - 手记
   - js
   - 对象
 categories:
-  - 手记
+  -
 date: 2018-04-07 11:40:37
 ---
 
